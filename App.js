@@ -1,5 +1,9 @@
 import React from 'react';
+import { MONGO_URI } from '@env';
 import { SafeAreaView, Text, StyleSheet } from 'react-native';
+
+// then use MONGO_URI in your data-access layer
+
 
 const App = () => (
   <SafeAreaView style={styles.container}>
